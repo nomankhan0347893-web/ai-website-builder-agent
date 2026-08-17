@@ -1,0 +1,31 @@
+# Virtual Environments
+venv/
+backend/venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+backend/.env
+frontend/.env
+*.env
+*.env.local
+
+# Node Dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+*.log
+.temp/
+tmp/
